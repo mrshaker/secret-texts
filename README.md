@@ -13,7 +13,7 @@ USER_NAME=yourUserName
 
 PASSWORD=youPassword
 
-Second, we use google-auth2 for authentication as third-party so, you have to get your Client_id and Client_secret from Google API (use this article https://help.sagecrm.com/on_premise/en/2022R1/Administration/Content/Administrator/EM_GetClientIdSecret-Gmail.htm).
+Second, we use google-auth2 for authentication as third-party so, you have to get your Client_id and Client_secret from Google Developer Console and create your trusted URL. (use this article https://help.sagecrm.com/on_premise/en/2022R1/Administration/Content/Administrator/EM_GetClientIdSecret-Gmail.htm).
 Then import thme in .env file the following:
 
 CLIENT_ID=yourClientId
